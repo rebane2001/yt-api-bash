@@ -39,7 +39,7 @@ yt playlist
 yt comments
 yt replies
 EOF
-exit 1
+return 1
 fi
 
 target_id="$(echo -n "${@:2}" | sed 's/ /,/g')"
